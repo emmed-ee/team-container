@@ -1,7 +1,7 @@
 acme:
-  mail: user@example.org
-  production: false
+  mail: admin@emmed.ee
+  production: true
 
 app:
   name: cloud
-  domain: example.org
+  domain: emmed.ee

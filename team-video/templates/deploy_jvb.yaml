@@ -62,4 +62,4 @@ spec:
           - name: JICOFO_AUTH_USER
             value: focus
           - name: TZ
-            value: Europe/Paris
+            value: Europe/Tallinn

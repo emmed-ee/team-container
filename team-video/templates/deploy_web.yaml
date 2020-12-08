@@ -102,7 +102,7 @@ spec:
           - name: XMPP_MUC_DOMAIN
             value: muc.{{ .Values.app.name }}.{{ .Values.app.domain }}
           - name: TZ
-            value: Europe/Paris
+            value: Europe/Tallinn
           - name: PUBLIC_URL
             value: "https://{{ .Values.app.name }}.{{ .Values.app.domain }}"
           - name: SHOW_JITSI_WATERMARK

@@ -1,16 +1,16 @@
 app:
   name: video
-  domain: example.org
-  pullpolicy: IfNotPresent # set to Always for auto updates
+  domain: emmed.ee
+  pullpolicy: Always # IfNotPresent # set to Always for auto updates
 
 auth:
-  enabled: false
-  guests: true
+  enabled: true
+  guests: false
   # internal auth
   type: internal
   admin:
     user: admin
-    password: "jitsiAdmin"
+    password: "jitsiadmin"
   # ldap auth - remove above "type: internal" auth to use it
   #type: ldap
   #ldapauthmethod: bind

@@ -1,6 +1,6 @@
 app:
   name: cloud
-  domain: example.org
+  domain: emmed.ee
 
 # Set a username and password for the first administrator account:
 admin:
@@ -15,5 +15,5 @@ storage:
 
 # no need to change these values. For internal databas account only
 database:
-  password: "secret#password"
-  root_password: "very123secret#passWord!"
+  password: "secretpassword"
+  root_password: "very123secretpassWord!"

@@ -54,4 +54,4 @@ spec:
           - name: XMPP_INTERNAL_MUC_DOMAIN
             value: internal-muc.{{ .Values.app.name }}.{{ .Values.app.domain }}
           - name: TZ
-            value: Europe/Paris
+            value: Europe/Tallinn

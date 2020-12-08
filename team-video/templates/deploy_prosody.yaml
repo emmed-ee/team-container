@@ -24,7 +24,7 @@ spec:
           - containerPort: 5280
           - containerPort: 5347
          resources: {}
-#         restartPolicy: Always
+         restartPolicy: Always
          {{ if eq .Values.auth.type "internal" }}
          lifecycle:
            postStart:
@@ -71,4 +71,4 @@ spec:
           - name: XMPP_INTERNAL_MUC_DOMAIN
             value: internal-muc.{{ .Values.app.name }}.{{ .Values.app.domain }}
           - name: TZ
-            value: Europe/Paris
+            value: Europe/Tallinn

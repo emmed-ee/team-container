@@ -32,6 +32,6 @@ spec:
          - containerPort: 8000
          env:
           - name: TZ
-            value: Europe/Paris
+            value: Europe/Tallinn
           - name: OPENSLIDES_SECRET
             value: {{ .Values.secrets.python }}
